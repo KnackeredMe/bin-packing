@@ -1,0 +1,17 @@
+:host {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  margin-bottom: 30px;
+}
+
+td {
+  width: 15px;
+  height: 15px;
+}

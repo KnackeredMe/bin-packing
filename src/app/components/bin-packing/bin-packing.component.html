@@ -1,0 +1,12 @@
+<div>
+  <div *ngFor="let table of tables">
+    <h1>{{table.name}}</h1>
+    <table>
+    <tr *ngFor="let container of table.containers">
+      <td *ngFor="let pack of container.packagesWeights">
+        <div *ngIf="pack">{{pack.weight}}</div>
+      </td>
+    </tr>
+    </table>
+  </div>
+</div>
